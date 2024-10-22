@@ -2,8 +2,8 @@
 
 import { useRouter } from "next/navigation"; // Usa `next/navigation`
 import React, { useEffect, useState } from "react";
-import ProfilePage from "@/components/ProfilePage/ProfilePage";
-import { IUserSession } from "@/interfaces/types";
+import ProfilePage from "../../components/ProfilePage/ProfilePage";
+import { IUserSession } from "../../interfaces/types";
 
 const Dashboard = () => {
   const [userSession, setUserSession] = useState<IUserSession | null>(null);

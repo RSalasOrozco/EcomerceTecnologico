@@ -1,8 +1,8 @@
 "use client";
 
-import { register } from "@/helpers/auth.helpers";
-import { validateRegisterForm } from "@/helpers/validate";
-import { IRegisterError, IRegisterProps } from "@/interfaces/types";
+import { register } from "../../helpers/auth.helpers";
+import { validateRegisterForm } from "../../helpers/validate";
+import { IRegisterError, IRegisterProps } from "../../interfaces/types";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import Swal from "sweetalert2";

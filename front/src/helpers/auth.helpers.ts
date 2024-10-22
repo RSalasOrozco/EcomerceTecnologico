@@ -1,4 +1,4 @@
-import { ILoginProps, IRegisterProps } from "@/interfaces/types";
+import { ILoginProps, IRegisterProps } from "../interfaces/types";
 
 const APIURL = process.env.NEXT_PUBLIC_API_URL;
 export async function register(userData: IRegisterProps) {

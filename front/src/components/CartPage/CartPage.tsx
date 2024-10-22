@@ -1,7 +1,7 @@
 "use client";
-import { createOrder } from "@/helpers/orders.helper";
-import IProduct from "@/interfaces/IProduct";
-import { IUserSession } from "@/interfaces/types";
+import { createOrder } from "../../helpers/orders.helper";
+import IProduct from "../../interfaces/IProduct";
+import { IUserSession } from "../../interfaces/types";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";

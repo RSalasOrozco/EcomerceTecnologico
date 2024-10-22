@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../Card/Card";
-import { getProductsDB } from "@/helpers/product.helper";
+import { getProductsDB } from "../../helpers/product.helper";
 import Link from "next/link";
 
 const CardList = async () => {

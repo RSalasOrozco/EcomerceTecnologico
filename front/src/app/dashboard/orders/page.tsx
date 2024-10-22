@@ -1,6 +1,6 @@
 "use client";
-import { getOrders } from "@/helpers/orders.helper";
-import { IUserSession, Order } from "@/interfaces/types";
+import { getOrders } from "../../../helpers/orders.helper";
+import { IUserSession, Order } from "../../../interfaces/types";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 

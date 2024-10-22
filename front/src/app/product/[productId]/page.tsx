@@ -1,5 +1,5 @@
-import ProductDetail from "@/components/ProductDetail/ProductDetail";
-import { getProductsById } from "@/helpers/product.helper";
+import ProductDetail from "../../../components/ProductDetail/ProductDetail";
+import { getProductsById } from "../../../helpers/product.helper";
 import React from "react";
 
 const Detail = async ({ params }: { params: { productId: string } }) => {

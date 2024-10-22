@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import IProduct from "@/interfaces/IProduct";
-import { IUserSession } from "@/interfaces/types";
+import IProduct from "../../interfaces/IProduct";
+import { IUserSession } from "../../interfaces/types";
 import Swal from "sweetalert2";
 import { useRouter } from "next/navigation";
 

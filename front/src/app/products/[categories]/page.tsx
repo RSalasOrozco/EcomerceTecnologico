@@ -1,6 +1,6 @@
 //CODIGO DE categorias
-import Card from "@/components/Card/Card";
-import { getProductsByCategory } from "@/helpers/product.helper";
+import Card from "../../../components/Card/Card";
+import { getProductsByCategory } from "../../../helpers/product.helper";
 import Link from "next/link";
 import React from "react";
 

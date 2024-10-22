@@ -1,5 +1,5 @@
 "use client";
-import { IUserSession } from "@/interfaces/types";
+import { IUserSession } from "../../interfaces/types";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 

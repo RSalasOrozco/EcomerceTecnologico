@@ -1,8 +1,8 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import categoriesToPreLoad from "@/helpers/categories";
-import { IUserSession } from "@/interfaces/types";
+import categoriesToPreLoad from "../../helpers/categories";
+import { IUserSession } from "../../interfaces/types";
 
 const Navbar = () => {
   const [userSession, setUserSession] = useState<IUserSession | null>(null);

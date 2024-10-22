@@ -1,7 +1,7 @@
 "use client";
-import { login } from "@/helpers/auth.helpers";
-import { validateLoginForm } from "@/helpers/validate";
-import { ILoginError, ILoginProps } from "@/interfaces/types";
+import { login } from "../../helpers/auth.helpers";
+import { validateLoginForm } from "../../helpers/validate";
+import { ILoginError, ILoginProps } from "../../interfaces/types";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
