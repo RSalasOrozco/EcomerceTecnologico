@@ -202,16 +202,6 @@ function Register() {
             </button>
           </div>
         </form>
-
-        {/*<a
-        <p className="mt-10 text-center text-sm text-gray-500">
-          Not a member?{" "}
-            href="#"
-            className="font-semibold leading-6 text-blue-600 hover:text-blue-300"
-          >
-            Start a 14 day free trial
-          </a>
-        </p>*/}
       </div>
     </div>
   );

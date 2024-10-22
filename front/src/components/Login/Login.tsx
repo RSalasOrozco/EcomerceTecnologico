@@ -2,6 +2,7 @@
 import { login } from "@/helpers/auth.helpers";
 import { validateLoginForm } from "@/helpers/validate";
 import { ILoginError, ILoginProps } from "@/interfaces/types";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import Swal from "sweetalert2";
@@ -101,12 +102,12 @@ function LoginPage() {
                 Password
               </label>
               <div className="text-sm">
-                <a
+                <Link
                   href="#"
                   className="font-semibold text-blue-600 hover:text-blue-300"
                 >
                   Forgot password?
-                </a>
+                </Link>
               </div>
             </div>
             <div className="mt-2">
@@ -137,12 +138,12 @@ function LoginPage() {
 
         <p className="mt-10 text-center text-sm text-gray-500">
           Not a member?{" "}
-          <a
+          <Link
             href="/register"
             className="font-semibold leading-6 text-blue-600 hover:text-blue-300"
           >
             Sign up here
-          </a>
+          </Link>
         </p>
       </div>
     </div>
